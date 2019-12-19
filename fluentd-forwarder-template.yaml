@@ -150,7 +150,7 @@ objects:
 parameters:
   - name: P_NAMESPACE
     description: Target namespace for image. Used to reference the ImageStream source for the image.
-    value: logging
+    value: openshift-logging
     required: true
   - name: P_IMAGE_NAME
     description: The name of the image to be used when performing the pull operation.
